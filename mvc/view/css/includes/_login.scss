@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif
+}
+
+.wrapper {
+    max-width: 850px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin: 180px auto;
+}
+
+.wrapper .form-left {
+    background: #3786bd;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px 40px;
+    width: 100%;
+    color: #fff
+}
+
+.wrapper h2 {
+    font-weight: 700;
+    font-size: 25px;
+    padding: 5px 0 0;
+    margin-bottom: 34px;
+    pointer-events: none
+}
+
+.wrapper .form-left p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.5;
+    pointer-events: none
+}
+
+
+.wrapper .form-left input {
+    padding: 15px;
+    background: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 180px;
+    border: none;
+    margin: 15px 0 50px 0px;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+
+.wrapper .form-left input:hover {
+    background-color: #3786bd;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.wrapper .form-right {
+    padding: 20px 40px;
+    width: 100%
+}
+
+.wrapper .form-right h2 {
+    color: #3786bd
+}
+
+.wrapper .form-right label {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-bottom: 8px
+}
+
+.wrapper .form-right .input-field {
+    width: 100%;
+    font-weight: 700;
+    padding: 10px 15px;
+    border: 1px solid #e5e5e5;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline: none;
+    color: #333;
+    padding-right: 20px;
+}
+
+.wrapper .register {
+    padding: 12px;
+    background: #3786bd;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 130px;
+    border: none;
+    margin: 6px 0 50px 0px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.wrapper .register:hover {
+    background-color: #0095ffe0;
+}
+
+.matiereSelect{
+    
+    width: 111%;
+    height: 10%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: solid 0.5px #a7a7a7;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}

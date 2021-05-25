@@ -1,0 +1,49 @@
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.login-form-2{
+    padding: 5%;
+    width: 100%;
+    margin-bottom: 4%;
+    background: #001e3d;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+    font-size: xx-large;
+}
+
+.Reservation{
+    width: 100%;
+    display: flex;
+    margin-top: 4%;
+}
+
+.form-group{
+    width: 30%;
+    margin-left: 4%;
+}
+
+.email{
+    width: 20px;
+}
+
+.table{
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+}
+
+.table th {
+    background-color: black;
+    color: white;
+    border: solid rgb(247, 247, 247);
+}
+
+.table td{
+    border: solid 3px rgb(117, 117, 117);
+}

@@ -1,0 +1,68 @@
+body {
+	background: #cecece;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 13px;
+}
+
+.table-wrapper {
+	background: rgb(255, 255, 255);
+	padding: 20px 25px;
+	margin-left: 15%;
+	border-radius: 3px;
+	min-width: 1000px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+th{
+	text-align: center;
+}
+
+td{
+	text-align: center;
+}
+
+.table-responsive{
+	margin-top: 5%;
+	margin-bottom: 3%;
+	
+}
+
+// table{
+// 	width: 80%;
+// }
+
+.buttons{
+	margin-left: 78%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.buttons button{
+	margin-left: 1%;
+	width: 100px;
+	
+}
+
+.action {
+	display: flex;
+	justify-content: center;
+}
+
+.table-title {        
+	padding-bottom: 15px;
+	background: #000000;
+	color: rgb(255, 255, 255);
+	padding: 16px 30px;
+	min-width: 100%;
+	margin: -20px -25px 10px;
+	border-radius: 3px 3px 0 0;
+}
+
+.active{
+	background-color: white;
+	font-size: large;
+}
+
+// .btnInsert{
+// 	width: 200px;
+// 	margin-left: 3%;
+// }
